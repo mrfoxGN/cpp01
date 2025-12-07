@@ -1,8 +1,8 @@
 
 CC=c++
 CFLAGS = -Wall -Wextra -Werror -std=c++98
-NAME=ZOMBIE
-SRC = main.cpp newZombie.cpp randomChump.cpp Zombie.cpp
+NAME=harl
+SRC = main.cpp Harl.cpp
 OBJ = $(SRC:.cpp=.o)
 all:$(NAME)
 
